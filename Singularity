@@ -4,8 +4,9 @@ From: ubuntu:16.04
 IncludeCmd: yes
 
 %labels
-  Maintainer icaoberg AT alumni DOT cmu DOT edu
-  Version v1.0
+  MAINTAINER icaoberg
+  EMAIL icaoberg@andrew.cmu.edu
+  VERSION v1.0
 
 %runscript
       exec /usr/bin/python "$@"
@@ -17,13 +18,6 @@ IncludeCmd: yes
     /usr/bin/apt-get install -y --no-install-recommends apt-utils
     /usr/bin/apt-get install -y build-essential
     /usr/bin/apt-get install -y rar unrar p7zip-full
-
-    # Make folders for CBD HPC cluster
-    if [ ! -d /images ]; then mkdir /images; fi
-    if [ ! -d /projects ]; then mkdir /containers; fi
-    if [ ! -d /containers ]; then mkdir /containers; fi
-    if [ ! -d /share ]; then mkdir /share; fi
-    if [ ! -d /scratch ]; then mkdir /scratch; fi
 
 %appenv unrar
    BEST_APP=unrar
