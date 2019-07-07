@@ -8,6 +8,10 @@
 
 Singularity recipe for various compression apps.
 
+* rar/unrar
+* zip
+* 7zip
+
 ## Disclaimer
 
 [![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
