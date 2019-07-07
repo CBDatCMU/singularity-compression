@@ -8,6 +8,12 @@
 
 Singularity recipe for various compression apps.
 
+## Disclaimer
+
+[![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
+
+I am nothing but a humble programmer creating the container for this wonderful app. 
+
 ---
 [![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
 
