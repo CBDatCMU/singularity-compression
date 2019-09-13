@@ -1,4 +1,5 @@
 # singularity-compression
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/2336)
 ![Release](https://img.shields.io/badge/release-prealpha-red.svg)
 [![Build Status](https://travis-ci.org/icaoberg/singularity-compression.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-compression)
 [![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-compression.svg)](https://github.com/icaoberg/singularity-compression/issues)
