@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE=compress.simg
+IMAGE=singularity-compression.simg
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
