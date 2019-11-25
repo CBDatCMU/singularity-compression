@@ -21,6 +21,7 @@ IncludeCmd: yes
     /usr/bin/apt-get install -y rar unrar p7zip-full
     
     if [ ! -d /images ]; then mkdir /images; fi
+    if [ ! -d /projects/murphylab ]; then mkdir -p /projects/murphylab; fi
     if [ ! -d /projects ]; then mkdir /projects; fi
     if [ ! -d /containers ]; then mkdir /containers; fi
     if [ ! -d /share ]; then mkdir /share; fi
@@ -28,25 +29,13 @@ IncludeCmd: yes
     if [ ! -d /webservers/pfenningweb ]; then mkdir -p /webservers/pfenningweb; fi
     
 ####################################################################################
-%appenv unrar
-   BEST_APP=unrar
-   export BEST_APP
-
 %apprun unrar
    unrar "$@"
    
-####################################################################################
-%appenv rar
-   BEST_APP=rar
-   export BEST_APP
-   
+####################################################################################   
 %apprun rar
    rar "$@"
 
 ####################################################################################
-%appenv 7z 
-   BEST_APP=7z
-   export BEST_APP
-
 %apprun 7z
    7z "$@"
