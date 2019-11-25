@@ -9,9 +9,6 @@ IncludeCmd: yes
   WEBSITE http://linus.cbd.cs.cmu.edu
   VERSION v1.0
 
-%runscript
-      exec /usr/bin/python "$@"
-
 %post
     /usr/bin/apt-get update && /usr/bin/apt-get -y upgrade
     /usr/bin/apt-get -y install module-init-tools
